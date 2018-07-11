@@ -13,6 +13,7 @@ body {
 
 .salad {
    background-color: lightgreen;
+   height: 300 px;
    background-image: url('better solvay photo.jpg');
    background-size: 40%;
    background-repeat: no-repeat;
