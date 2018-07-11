@@ -5,12 +5,18 @@ img {
 
     max-width: 100%;
 }
+
+
 body {
     margin: 0;
 }
 
 .salad {
    background-color: lightgreen;
+   background-image: url('better solvay photo.jpg');
+   background-size: 40%;
+   background-repeat: no-repeat;
+   background-position: center;
    
    text-align: center;
    
