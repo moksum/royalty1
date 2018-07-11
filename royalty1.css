@@ -1,7 +1,10 @@
 
   
 
+img {
 
+    max-width: 100%;
+}
 
 .salad {
    background-color: lightgreen;
@@ -11,7 +14,7 @@
 
 .steak {
     background-color: lightcoral;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 
 }
