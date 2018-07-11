@@ -1,18 +1,18 @@
 
   
 
-.dinner {
-    width: 70%;
-    margin: auto;
- 
-}
+
+
 .salad {
    background-color: lightgreen;
+   
 
 }
 
 .steak {
     background-color: lightcoral;
+    width: 70%;
+    margin: 0 auto;
 
 }
 
