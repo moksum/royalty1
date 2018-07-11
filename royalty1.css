@@ -82,6 +82,19 @@ a {
     font-size: 30px;
     color: white;
 
+
+}
+.pepper {
+   font-family: 'Permanent Marker', serif;
+   font-size: 22px;
+   color: black;
+   
+}
+.squash {
+    font-family: 'Permanent Marker', serif;
+    font-size: 22px;
+    color: black;
+
 }
 .coffee a,
 .cream a {
@@ -91,11 +104,17 @@ a {
 
 
 .steak {
-    background-color: lightcoral;
+    
     padding-left: 1 em;
     padding-right: 1 em;
     
 
+}
+.instrument {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    
 }
 
 .dessert {
