@@ -8,10 +8,13 @@ img {
 
 .salad {
    background-color: lightgreen;
-   padding-top: 1em 0;
+   
    text-align: center;
    
 
+}
+.olive {
+    margin-top: 0;
 }
 
 .steak {
