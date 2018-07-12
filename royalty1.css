@@ -64,7 +64,26 @@ body {
 
 }
 
+.fork {
+  padding-left: 3em;
 
+}
+.morningstar {
+    font-family: 'Permanent Marker', serif;
+    font-size: 22px;
+    color: black;
+}
+.custer {
+    background-color: yellow;
+    text-align: center;
+}
+.sherman {
+    background-color: lightgreen;
+}
+.grant {
+    background-color: lightpink;
+    text-align: center;
+}
 
 
 .steak {
@@ -77,7 +96,7 @@ body {
 .instrument {
     display: inline-block;
     width: 50%;
-    margin-right: 
+    margin-right: -3.5px;
     
 }
 
