@@ -22,6 +22,7 @@ body {
    background-position: center;
    
    text-align: center;
+   border-bottom: 3px double tan;
    
 
 }
@@ -66,7 +67,9 @@ a {
 
 .olive {
     margin-top: 0;
-    color: white;
+    font-family: 'Permanent Marker', serif;
+    font-size: 30px;
+    color: black;
     
        
 }
@@ -118,8 +121,8 @@ a {
 }
 
 .dessert {
-    background-color: lightblue;
-    
+    background-color: lightgray;
+    border-top: 3px double black;
 }
 
   /*   media queries    */
@@ -148,7 +151,7 @@ a {
           margin-right: 50px;
           margin-bottom: 50px;
           margin-left: 50px;
-          background-color: red;
+          
 
       }
 
