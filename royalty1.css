@@ -26,6 +26,28 @@ body {
    
 
 }
+/* floated columns-----*/
+
+.knife,
+.fork {
+    width: 46.5%
+}
+
+.fork {
+    float: right;
+}
+.knife {
+    float: left;
+}
+
+
+
+/* float clearfix -------*/
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
 
@@ -64,10 +86,8 @@ body {
 
 }
 
-.fork {
-  padding-left: 3em;
 
-}
+
 .morningstar {
     font-family: 'Permanent Marker', serif;
     font-size: 22px;
@@ -91,38 +111,39 @@ body {
     padding-left: 1 em;
     padding-right: 1 em;
     
+    
 
 }
-.instrument {
-    display: inline-block;
-    width: 50%;
-    margin-right: -3.5px;
-    
+.fork {
+
+    padding-right: 3em;
+}
+ 
+.knife {
+    padding-left: 3em;
+}
 }
 
 .dessert {
     background-color: lightgray;
     border-top: 3px double black;
-}
+    text-align: center;
 
-  /*   media queries    */
-  @media (min-width: 768px)  {
 
      
      .wrap {
           min-height: calc(100vh-71px);
       }
+
+
       .steak {
-          width:80%;
-          margin: 0 auto;
-          max-width: 1100px;
-
-     
-          
-          
-      }
-     
+          width: 80%;
+          padding-left: 50px;
+          padding-right: 50px;
+          margin: auto;
+          max-width: 950px;
 
       }
+     
 
-  }
+  
