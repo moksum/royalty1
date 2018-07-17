@@ -332,3 +332,66 @@ a {
     /*heisenberg 4 css-----------*/
 
     /*schrodinger 5 css----------*/
+    /*schrodinger base css-----*/
+     img {
+         max-width: 100%;
+     }
+
+    /*schrodinger header-------*/
+    #wave1 {
+        background-color: lightgreen;
+        text-align: center;
+    }
+    /*schrodinger layout-------*/
+    .sandwich1 {
+        width: 80%;
+        margin: auto;
+        max-width: 980 px;
+    }
+
+    /* schrodinger floated columns-----*/
+
+.science1,
+.life1 {
+    width: 47%
+}
+
+.science1 {
+    float: left;
+    
+}
+.life1 {
+    float: right;
+    padding-left: 4em;
+
+}
+/*schrodinger clearfix---------*/
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*schrodinger footer------------*/
+.base1 {
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 3px double black;
+    border-bottom: 3px double black;
+}
+/*schrodinger media queries-----*/
+ @media (max-width: 780px) {
+
+     .sandwich1 {
+         width: 90%;
+     }
+     .science1,
+     .life1 {
+         float: none;
+     }
+     .science1 {
+         padding-left: 45px;
+     }
+ }
