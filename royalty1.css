@@ -8,9 +8,14 @@
    
 body {
     margin: 0;
-    
-    
+        
 }
+img {
+
+    max-width: 100%;
+
+}
+
  
  .olive {
     margin-top: 0;
@@ -317,3 +322,13 @@ a {
       /* .wrap {
         min-height: calc(100vh-71px);
     } */
+
+    /*leadup 1 css--------------*/
+
+    /*thatphoto 2 css-----------*/
+
+    /*debroglie 3 css------------*/
+
+    /*heisenberg 4 css-----------*/
+
+    /*schrodinger 5 css----------*/
