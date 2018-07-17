@@ -19,6 +19,7 @@ body {
  }
 
  h2 {
+     
 
  }
  
@@ -231,17 +232,97 @@ a {
     
 @media (max-width: 768px)  {
     .steak {
-        width: 100%;
+        width: 95%;
     }
     .knife,
     .fork {
         float: none;
         width: 100%;
     }
-
+    .olive {
+        font-size: 22px;
+    }
+    .oil {
+        font-size: 1.5rem;
+    }
+    .tomato {
+        font-size: 22px;
+    }
+    .regnum2 {
+        font-size: 1.15em;
+        line-height: 1.20;
+        padding-left: 20px;
+    }
+    .salad {
+        height: 280px;
+    }
+    .squash,
+    .morningstar {
+        font-size: 21px;
+    }
   
     
 }  
+@media (max-width: 460px) {
+    .steak {
+        width: 100%;
+    }
+    .olive {
+        font-size: 17px;
+    }
+    .oil {
+        font-size: 1.25rem;
+
+    }
+    .tomato {
+        font-size: 17px;
+
+    }
+    .regnum2 {
+        font-size: 1.10em;
+
+    }
+    .salad {
+        height: 250px;
+
+    }
+    .squash,
+    .morningstar {
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 420px) {
+
+     .salad {
+         height: 220px;
+     }
+}
+@media (max-width: 380px) {
+    
+      .olive {
+          font-size: 14px;
+
+      }
+      .oil {
+          font-size: .9rem;
+
+      }
+      .tomato {
+          font-size: 15px;
+
+      }
+      .regnum2 {
+          font-size: 1.05em;
+
+      }
+      .squash,
+      .morningstar {
+          font-size: 19px;
+      }
+      
+}
+
 
 
       .wrap {
