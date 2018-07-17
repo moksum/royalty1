@@ -10,18 +10,7 @@ body {
     margin: 0;
     
     
-
 }
-
- h1 {
-
-
- }
-
- h2 {
-     
-
- }
  
  .olive {
     margin-top: 0;
@@ -84,9 +73,7 @@ body {
     text-align: center;
     border: 1px solid black;
     display: inline-block;
-
-    
-    
+   
     
 }
 .custer a,
@@ -328,6 +315,3 @@ a {
       .wrap {
         min-height: calc(100vh-71px);
     }
-
-
-  
