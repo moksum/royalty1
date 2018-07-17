@@ -1,17 +1,107 @@
 
+ 
+/*--base css-----------------------*/ 
  * {
      box-sizing: border-box;
  } 
 
-img {
-
-    max-width: 100%;
-}
-
-
+   
 body {
     margin: 0;
+    
+    
+
 }
+
+ h1 {
+
+
+ }
+
+ h2 {
+
+ }
+ 
+ .olive {
+    margin-top: 0;
+    font-family: 'Permanent Marker', serif;
+    font-size: 30px;
+    color: black;
+          
+}
+.oil {
+
+    color: black;
+    font-size: 1.750rem;
+    font-weight: bold;
+    background-color: white;
+}
+
+.tomato {
+    font-family: 'Permanent Marker', serif;
+    font-size: 30px;
+    color: white;
+}
+
+.squash {
+    font-family: 'Permanent Marker', serif;
+    font-size: 22px;
+    color: black;
+
+}
+
+.morningstar {
+    font-family: 'Permanent Marker', serif;
+    font-size: 22px;
+    color: black;
+}
+ 
+ /*pseudo classes css----------*/
+
+
+ .custer {
+    background-color: burlywood;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+    
+}
+
+.sherman {
+
+    background-color: lightgreen;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+   
+    
+    
+}
+
+.grant {
+    background-color: lightpink;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+
+    
+    
+    
+}
+.custer a,
+.sherman a,
+.grant a {
+    color: black;
+}
+a {
+
+    text-decoration: none;
+}
+.morningstar {
+    text-align: center;
+}
+
+/*main css--------------*/
 
 .salad {
    background-color: lightgreen;
@@ -24,13 +114,76 @@ body {
    text-align: center;
    border-bottom: 3px double tan;
    
+}
+
+
+.regnum2 {
+    font-family: Arial;
+    font-size: 1.2em;
+    line-height: 1.25;
+}
+
+.steak {
+    
+    padding-left: 1 em;
+    padding-right: 1 em;
+    
+}
+
+.fork {
+    padding-left: 
 
 }
+.knife {
+    padding-right: 2.5em;
+}
+.instrument {
+    text-align: center;
+}
+
+
+
+
+.dessert {
+    background-color: lightgray;
+    border-top: 3px double black;
+    text-align: center;
+}
+
+.leadup,
+.photo,
+.followup {
+    font-family: serif;
+    border: 3px solid;
+    font-size: 1.25em;
+    padding: 0 9px 3px;
+    display: inline-block;
+    color: black;
+    
+    
+}
+.leadup {
+    background-color: lightcyan;
+    
+}
+.photo {
+    background-color: lightblue;
+
+}
+.followup {
+    background-color: lightgoldenrodyellow;
+    
+}
+
+
+
+
+
 /* floated columns-----*/
 
 .knife,
 .fork {
-    width: 46.5%
+    width: 47%
 }
 
 .fork {
@@ -42,7 +195,9 @@ body {
 
 
 
+
 /* float clearfix -------*/
+
 .group:after {
     content: "";
     display: table;
@@ -51,99 +206,47 @@ body {
 
 
 
-.olive {
-    margin-top: 0;
-    font-family: 'Permanent Marker', serif;
-    font-size: 30px;
-    color: black;
-    
-       
-}
-.oil {
 
-    color: black;
-    font-size: 1.750rem;
-    font-weight: bold;
-    background-color: white;
-}
-.tomato {
-    font-family: 'Permanent Marker', serif;
-    font-size: 30px;
-    color: white;
-}
-
-
-
-
-
-
-   
-
-.squash {
-    font-family: 'Permanent Marker', serif;
-    font-size: 22px;
-    color: black;
-
-}
-
-
-
-.morningstar {
-    font-family: 'Permanent Marker', serif;
-    font-size: 22px;
-    color: black;
-}
-.custer {
-    background-color: yellow;
-    text-align: center;
-}
-.sherman {
-    background-color: lightgreen;
-}
-.grant {
-    background-color: lightpink;
-    text-align: center;
-}
-
-
-.steak {
-    
-    padding-left: 1 em;
-    padding-right: 1 em;
-    
-    
-
-}
-.fork {
-
-    padding-right: 3em;
-}
- 
-.knife {
-    padding-left: 3em;
-}
-}
-
-.dessert {
-    background-color: lightgray;
-    border-top: 3px double black;
-    text-align: center;
-
-
-     
-     .wrap {
-          min-height: calc(100vh-71px);
-      }
+/*--layout css------*/
 
 
       .steak {
           width: 80%;
-          padding-left: 50px;
-          padding-right: 50px;
+          /* padding-left: 40px;
+          padding-right: 40px; */
           margin: auto;
           max-width: 950px;
-
       }
-     
+
+          
+      
+/*media queries css-------*/
+
+@media (max-width: 960px) {
+    .steak {
+        
+        width: 90%;
+    }
+}
+    
+@media (max-width: 768px)  {
+    .steak {
+        width: 100%;
+    }
+    .knife,
+    .fork {
+        float: none;
+        width: 100%;
+    }
+
+  
+    
+}  
+
+
+      .wrap {
+        min-height: calc(100vh-71px);
+    }
+
 
   
