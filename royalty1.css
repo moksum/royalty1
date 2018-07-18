@@ -323,13 +323,282 @@ a {
         min-height: calc(100vh-71px);
     } */
 
-    /*leadup 1 css--------------*/
+    /*leadup 1 css--------------*/    
+    /*leadup 1 base css-----*/
+    body {
+        margin: 0;
+            
+    }
+    
+     img {
+        max-width: 100%;
+    }
+
+   /*leadup 1 header-------*/
+   #wave1 {
+       background-color: lightcyan;
+       text-align: center;
+       border-bottom: 3px double black;
+   }
+   /*leadup 1 layout-------*/
+   .sandwich1 {
+       width: 80%;
+       margin: auto;
+       max-width: 980 px;
+   }
+
+   /* leadup 1 floated columns-----*/
+
+.science1,
+.life1 {
+   width: 47%
+}
+
+.science1 {
+   float: left;
+   
+}
+.life1 {
+   float: right;
+   padding-left: 40px;
+
+}
+/*leadup 1 clearfix---------*/
+.group:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+/*leadup 1 footer------------*/
+.base1 {
+   background-color: lightgrey;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-top: 3px double black;
+   border-bottom: 3px double black;
+}
+/*leadup 1 media queries-----*/
+@media (max-width: 780px) {
+
+    .sandwich1 {
+        width: 90%;
+    }
+    .science1,
+    .life1 {
+        float: none;
+    }
+    .science1 {
+        padding-left: 45px;
+    }
+}
+
 
     /*thatphoto 2 css-----------*/
+        /*thatphoto 2 css----------*/
+    /*thatphoto 2 base css-----*/
+    img {
+        max-width: 100%;
+    }
+
+   /*thatphoto2 header-------*/
+   #wave2 {
+       background-color: lightblue;
+       text-align: center;
+       border-bottom: 3px double black;
+   }
+   /*thatphoto2 layout-------*/
+   .sandwich2 {
+       width: 80%;
+       margin: auto;
+       max-width: 980 px;
+   }
+
+   /*thatphoto2 floated columns-----*/
+
+.science2,
+.life2 {
+   width: 47%
+}
+
+.science2 {
+   float: left;
+   padding-left: 80px;
+   
+}
+.life2 {
+   float: right;
+   padding-left: 80px;
+
+}
+/*thatphoto2 clearfix---------*/
+.group:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+/*thatphoto2 footer------------*/
+.base2 {
+   background-color: lightgrey;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-top: 3px double black;
+   border-bottom: 3px double black;
+}
+/*thatphoto2 media queries-----*/
+@media (max-width: 780px) {
+
+    .sandwich2 {
+        width: 90%;
+    }
+    .science2,
+    .life2 {
+        float: none;
+    }
+    .science2 {
+        padding-left: 45px;
+    }
+}
 
     /*debroglie 3 css------------*/
+        /*debroglie 3 css----------*/
+    /*debroglie 3 base css-----*/
+    img {
+        max-width: 100%;
+    }
+
+   /*debroglie 3 header-------*/
+   #wave3 {
+       background-color: burlywood;
+       text-align: center;
+       border-bottom: 3px double black;
+   }
+   .class {
+       box-shadow: 10px 10px rgba (0,0,0, .8);
+   }
+   /*debroglie 3 layout-------*/
+   .sandwich3 {
+       width: 80%;
+       margin: auto;
+       max-width: 980 px;
+   }
+
+   /* debroglie 3 floated columns-----*/
+
+.science3,
+.life1 {
+   width: 47%
+}
+
+.science3 {
+   float: left;
+   
+}
+.life3 {
+   float: right;
+   padding-left: 4em;
+
+}
+/*debroglie 3 clearfix---------*/
+.group:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+/*debroglie 3 footer------------*/
+.base3 {
+   background-color: lightgrey;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-top: 3px double black;
+   border-bottom: 3px double black;
+}
+/*debroglie 3 media queries-----*/
+@media (max-width: 780px) {
+
+    .sandwich3 {
+        width: 90%;
+    }
+    .science3,
+    .life3 {
+        float: none;
+    }
+    .science3 {
+        padding-left: 45px;
+    }
+}
 
     /*heisenberg 4 css-----------*/
+        /*heisenberg 4 css----------*/
+    /*heisenberg 4 base css-----*/
+    img {
+        max-width: 100%;
+    }
+
+   /*heisenberg 4 header-------*/
+   #wave4 {
+       background-color: lightgreen;
+       text-align: center;
+       border-bottom: 3px double black;
+   }
+   /*heisenberg 4 layout-------*/
+   .sandwich4 {
+       width: 80%;
+       margin: auto;
+       max-width: 980 px;
+   }
+
+   /* heisenberg 4 floated columns-----*/
+
+.science4,
+.life4 {
+   width: 47%
+}
+
+.science4 {
+   float: left;
+   
+}
+.life4 {
+   float: right;
+   padding-left: 4em;
+
+}
+/*heisenberg 4 clearfix---------*/
+.group:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+/*heisenberg 4 footer------------*/
+.base4 {
+   background-color: lightgrey;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-top: 3px double black;
+   border-bottom: 3px double black;
+}
+/*heisenberg 4 media queries-----*/
+@media (max-width: 780px) {
+
+    .sandwich4 {
+        width: 90%;
+    }
+    .science4,
+    .life4 {
+        float: none;
+    }
+    .science4 {
+        padding-left: 45px;
+    }
+}
 
     /*schrodinger 5 css----------*/
     /*schrodinger base css-----*/
@@ -338,12 +607,13 @@ a {
      }
 
     /*schrodinger header-------*/
-    #wave1 {
-        background-color: lightgreen;
+    #wave5 {
+        background-color: lightpink;
         text-align: center;
+        border-bottom: 3px double black;
     }
     /*schrodinger layout-------*/
-    .sandwich1 {
+    .sandwich5 {
         width: 80%;
         margin: auto;
         max-width: 980 px;
@@ -351,16 +621,16 @@ a {
 
     /* schrodinger floated columns-----*/
 
-.science1,
-.life1 {
+.science5,
+.life5 {
     width: 47%
 }
 
-.science1 {
+.science5 {
     float: left;
     
 }
-.life1 {
+.life5 {
     float: right;
     padding-left: 4em;
 
@@ -373,7 +643,7 @@ a {
 }
 
 /*schrodinger footer------------*/
-.base1 {
+.base5 {
     background-color: lightgrey;
     text-align: center;
     padding-top: 20px;
@@ -384,14 +654,81 @@ a {
 /*schrodinger media queries-----*/
  @media (max-width: 780px) {
 
-     .sandwich1 {
+     .sandwich5 {
          width: 90%;
      }
-     .science1,
-     .life1 {
+     .science5,
+     .life5 {
          float: none;
      }
-     .science1 {
+     .science5 {
          padding-left: 45px;
      }
  }
+/*100 year aftermath------------*/
+    /*aftermath 6 css----------*/
+    /*aftermath 6 base css-----*/
+    img {
+        max-width: 100%;
+    }
+
+   /*aftermath 6 header-------*/
+   #wave6 {
+       background-color: lightgoldenrodyellow;
+       text-align: center;
+       border-bottom: 3px double black;
+   }
+   /*aftermath 6 layout-------*/
+   .sandwich6 {
+       width: 80%;
+       margin: auto;
+       max-width: 980 px;
+   }
+
+   /* aftermath 6 floated columns-----*/
+
+.science6,
+.life6 {
+   width: 47%
+}
+
+.science6 {
+   float: left;
+   padding-left: 80px;
+   
+}
+.life6 {
+   float: right;
+   padding-left: 80px;
+
+}
+/*aftermath 6 clearfix---------*/
+.group:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+/*aftermath 6  footer------------*/
+.base6 {
+   background-color: lightgrey;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-top: 3px double black;
+   border-bottom: 3px double black;
+}
+/*aftermath 6 media queries-----*/
+@media (max-width: 780px) {
+
+    .sandwich6 {
+        width: 90%;
+    }
+    .science6,
+    .life6 {
+        float: none;
+    }
+    .science6 {
+        padding-left: 45px;
+    }
+}
