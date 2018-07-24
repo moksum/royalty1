@@ -1,5 +1,6 @@
 
 
+
 const olive = document.getElementById('olive');
 
 olive.addEventListener('click', () => {
@@ -50,7 +51,7 @@ $(document).ready(
 );
 $(document).ready(function() {
     $(".little").hover(function() {
-        $(this).css("background-color", "yellow");
+        $(this).css("background-color", "tan");
         }, function(){
         $(this).css("background-color", "white");
     });
