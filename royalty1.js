@@ -32,6 +32,13 @@ $(document).ready(function() {
         $(this).css("background-color", "white");
     });
 });
+$(document).ready(function() {
+    $(".lynx").hover(function() {
+        $(this).css("background-color", "yellow");
+        }, function(){
+        $(this).css("background-color", "white");
+    });
+});
 
 $(document).ready(
     function() {
