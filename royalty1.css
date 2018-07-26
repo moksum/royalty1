@@ -496,9 +496,7 @@ a {
        text-align: center;
        border-bottom: 3px double black;
    }
-   .class {
-       box-shadow: 10px 10px rgba (0,0,0, .8);
-   }
+   
    /*debroglie 3 layout-------*/
    .sandwich3 {
        width: 80%;
@@ -509,7 +507,7 @@ a {
    /* debroglie 3 floated columns-----*/
 
 .science3,
-.life1 {
+.life3 {
    width: 47%
 }
 
