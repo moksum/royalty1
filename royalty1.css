@@ -1,21 +1,24 @@
 
  
 /*--base css-----------------------*/ 
+
+/*--assists with dimensions of header/body/footer--*/
  * {
      box-sizing: border-box;
  } 
 
-   
+/*--omit margin above header--*/   
 body {
     margin: 0;
         
 }
+/*---assists responsive image---*/
 img {
 
     max-width: 100%;
 
 }
-
+/*--style print and text--*/
  
  #olive {
     margin-top: 0;
@@ -53,7 +56,7 @@ img {
  
  /*pseudo classes css----------*/
 
-
+/*style buttons-----*/
  .custer {
     background-color: burlywood;
     text-align: center;
@@ -95,7 +98,7 @@ a {
 }
 
 /*main css--------------*/
-
+/*--style header and include header photo--*/
 .salad {
    background-color: lightgreen;
    height: 300px;
@@ -108,14 +111,14 @@ a {
    border-bottom: 3px double tan;
    
 }
-
+/*style text  in first floated div--*/
 
 .regnum2 {
     font-family: Arial;
     font-size: 1.2em;
     line-height: 1.25;
 }
-
+/*style main div--*/
 .steak {
     
     padding-left: 1 em;
@@ -123,14 +126,16 @@ a {
     
 }
 
-
+/*--style first floated div--*/
 
 .knife {
     padding-right: 2.5em;
 }
+/*--style-center text in floated divs--*/
 .instrument {
     text-align: center;
 }
+/*--style images on linked pages--*/
 .jax1,
 .jax2,
 .jax3,
@@ -139,6 +144,7 @@ a {
 .jax6 {
     box-shadow: 10px 10px 5px grey;
 }
+/*--style text in linked pages--*/
 .max1,
 .max2,
 .max3,
@@ -162,7 +168,7 @@ a {
     padding-bottom: 20px;
     border-bottom: 3px double black;
 }
-
+/*--style buttons in floated div's--*/
 .leadup,
 .photo,
 .followup {
@@ -222,7 +228,7 @@ a {
 
 /*--layout css------*/
 
-
+/*--centering main div--parameters--*/
       .steak {
           width: 80%;
           /* padding-left: 40px;
@@ -263,6 +269,9 @@ a {
     .regnum2 {
         font-size: 1.15em;
         line-height: 1.20;
+        padding-left: 20px;
+    }
+    .lynx {
         padding-left: 20px;
     }
     .salad {
@@ -337,9 +346,8 @@ a {
 
 
 
-      /* .wrap {
-        min-height: calc(100vh-71px);
-    } */
+    /*--structural styling for the 6 linked pages-- with associated media queries--
+    ----LEADUP, THAT PHOTO, deBROGLIE, HEISENBERG, SCHRODINGER, 100 YEAR AFTERMATH--*/
 
     /*leadup 1 css--------------*/    
     /*leadup 1 base css-----*/
